@@ -29,7 +29,7 @@ Config.vehicle = {
 
 Config.ui = {
 	showServerLogo		 = false,
-
+    carHud               = true, 
 	showJob		 		 = true,
 
 	showWalletMoney 	 = true,
