@@ -5,6 +5,9 @@ local vehiclesCars = {0,1,2,3,4,5,6,7,8,9,10,11,12,17,18,19,20};
 local isTalking = false
 local Playerid = PlayerId()
 local ServerId = 0
+
+DisplayRadar(false)
+
 function Startup()
 	ServerId = GetPlayerServerId(Playerid)
 	SendNUIMessage({ action = 'ui', config = Config.ui })
@@ -638,7 +641,7 @@ end)
 if Config.ui.showMinimapHealth then 
 	Citizen.CreateThread(function()
 		local minimap = RequestScaleformMovie("minimap")
-		SetBigmapActive(true, false)
+		SetBigmapActive(false, false)
 		Wait(0)
 		SetBigmapActive(false, false)
 		while true do
