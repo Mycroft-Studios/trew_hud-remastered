@@ -31,11 +31,13 @@ Config.ui = {
 	showServerLogo		 = false,
 
 	showJob		 		 = true,
-
+        showJob2		 	 = true,
+	
 	showWalletMoney 	 = true,
 	showBankMoney 		 = true,
 	showBlackMoney 		 = false,
 	showSocietyMoney	 = true,
+	showSociety2Money	 = true,
 
 	showDate 			 = true,
 	showLocation 		 = true,
