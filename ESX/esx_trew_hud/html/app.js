@@ -70,6 +70,7 @@ window.onload = function () {
 				if (config.showBankMoney == true) { document.querySelector('#bank').style.display = 'block'; }
 				if (config.showBlackMoney == true) { document.querySelector('#blackMoney').style.display = 'block'; }
 				if (config.showSocietyMoney == true) { document.querySelector('#society').style.display = 'block'; }
+				if (config.showSociety2Money == true) { document.querySelector('#society2').style.display = 'block'; }
 
 				if (config.showHealth == true) { document.querySelector('#health').style.display = 'block'; }
 				if (config.showArmor == true) { document.querySelector('#armor').style.display = 'block'; }
@@ -79,6 +80,7 @@ window.onload = function () {
 				if (config.showID == true) { document.querySelector('#plyId').style.display = 'block'; }
 
 				if (config.showJob == true) { document.querySelector('#job').style.display = 'block'; }
+				if (config.showJob2 == true) { document.querySelector('#job2').style.display = 'block'; }
 				if (config.showDate == true) { document.querySelector('#date').style.display = 'block'; }
 				if (config.showLocation == true) { document.querySelector('#location').style.display = 'block'; }
 				
